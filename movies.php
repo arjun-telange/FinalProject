@@ -16,18 +16,27 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">MovieBooker</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navMain">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="admin-login.php">Admin Login</a></li>
-                </ul>
-            </div>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="Logo" width="35" height="35" class="me-2">MovieBooker
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" href="movies.php">Movies</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="admin-login.php">Admin Login</a>
+            </li>
+        </ul>
         </div>
+    </div>
     </nav>
 
     <!-- Movie List Section -->
@@ -46,7 +55,7 @@
                 <!-- The Shawshank Redemption card body -->
                     <div class="card-body">
                       <h5 class="card-title">The Shawshank Redemption</h5>
-                      <p class="card-text" data-date="2025-09-15">Showtime: 1:30 PM</p>
+                      <p class="card-text" data-date="2025-10-01">Showtime: 1:30 PM</p>
                       <form action="book.php" method="POST" class="d-inline">
                         <input type="hidden" name="movie" value="The Shawshank Redemption">
                         <input type="hidden" name="showtime" value="1:30 PM">
@@ -67,7 +76,7 @@
                 <!-- Demon Slayer card body -->
                     <div class="card-body">
                       <h5 class="card-title">Demon Slayer -Kimetsu no Yaiba- The Movie: Infinity Castle</h5>
-                      <p class="card-text" data-date="2025-09-15">Showtime: 2:00 PM</p>
+                      <p class="card-text" data-date="2025-10-01">Showtime: 2:00 PM</p>
                       <form action="book.php" method="POST" class="d-inline">
                         <input type="hidden" name="movie" value="Demon Slayer">
                         <input type="hidden" name="showtime" value="2:00 PM">
@@ -88,7 +97,7 @@
                 <!-- Mahavatar Narsimha card body -->
                     <div class="card-body">
                       <h5 class="card-title">Mahavatar Narsimha</h5>
-                      <p class="card-text" data-date="2025-09-15">Showtime: 3:30 PM</p>
+                      <p class="card-text" data-date="2025-10-01">Showtime: 3:30 PM</p>
                       <form action="book.php" method="POST" class="d-inline">
                         <input type="hidden" name="movie" value="Mahavatar Narsimha">
                         <input type="hidden" name="showtime" value="3:30 PM">
@@ -109,7 +118,7 @@
                 <!-- Hereditary card body -->
                     <div class="card-body">
                       <h5 class="card-title">Hereditary (2018)</h5>
-                      <p class="card-text" data-date="2025-09-15">Showtime: 10:00 AM</p>
+                      <p class="card-text" data-date="2025-10-01">Showtime: 10:00 AM</p>
                       <form action="book.php" method="POST" class="d-inline">
                         <input type="hidden" name="movie" value="Hereditary">
                         <input type="hidden" name="showtime" value="10:00 AM">
@@ -130,7 +139,7 @@
                 <!-- The Conjuring card body -->
                     <div class="card-body">
                       <h5 class="card-title">The Conjuring: Last Rites (2025)</h5>
-                      <p class="card-text" data-date="2025-09-15">Showtime: 8:00 PM</p>
+                      <p class="card-text" data-date="2025-10-01">Showtime: 8:00 PM</p>
                       <form action="book.php" method="POST" class="d-inline">
                         <input type="hidden" name="movie" value="The Conjuring">
                         <input type="hidden" name="showtime" value="8:00 PM">
@@ -151,7 +160,7 @@
                 <!-- Evil Dead Rise card body -->
                     <div class="card-body">
                       <h5 class="card-title">Evil Dead Rise</h5>
-                      <p class="card-text" data-date="2025-09-15">Showtime: 1:00 PM</p>
+                      <p class="card-text" data-date="2025-10-01">Showtime: 1:00 PM</p>
                       <form action="book.php" method="POST" class="d-inline">
                         <input type="hidden" name="movie" value="Evil Dead Rise">
                         <input type="hidden" name="showtime" value="1:00 PM">
@@ -172,7 +181,7 @@
                 <!-- Inception card body -->
                     <div class="card-body">
                       <h5 class="card-title">Inception</h5>
-                      <p class="card-text" data-date="2025-09-13">Showtime: 7:00 PM</p>
+                      <p class="card-text" data-date="2025-10-01">Showtime: 7:00 PM</p>
                       <form action="book.php" method="POST" class="d-inline">
                         <input type="hidden" name="movie" value="Inception">
                         <input type="hidden" name="showtime" value="7:00 PM">
@@ -193,7 +202,7 @@
                 <!-- Interstellar card body -->
                     <div class="card-body">
                       <h5 class="card-title">Interstellar</h5>
-                      <p class="card-text" data-date="2025-09-13">Showtime: 9:00 PM</p>
+                      <p class="card-text" data-date="2025-10-01">Showtime: 9:00 PM</p>
                       <form action="book.php" method="POST" class="d-inline">
                         <input type="hidden" name="movie" value="Interstellar">
                         <input type="hidden" name="showtime" value="9:00 PM">
@@ -214,7 +223,7 @@
                 <!-- The Batman card body -->
                     <div class="card-body">
                       <h5 class="card-title">The Batman</h5>
-                      <p class="card-text" data-date="2025-09-13">Showtime: 6:30 PM</p>
+                      <p class="card-text" data-date="2025-10-01">Showtime: 6:30 PM</p>
                       <form action="book.php" method="POST" class="d-inline">
                         <input type="hidden" name="movie" value="The Batman">
                         <input type="hidden" name="showtime" value="6:30 PM">

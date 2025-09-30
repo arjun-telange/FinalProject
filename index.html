@@ -12,23 +12,35 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">MovieBooker</a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="movies.php">View Movies</a></li>
-                    <li class="nav-item"><a class="nav-link" href="admin-login.php">Admin Login</a></li>
-                </ul>
-            </div>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="Logo" width="35" height="35" class="me-2">MovieBooker
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="movies.php">Movies</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="admin-login.php">Admin Login</a>
+            </li>
+        </ul>
         </div>
+    </div>
     </nav>
-
     <!-- Hero Section -->
     <main>
         <section class="bg-light text-center py-5">
             <div class="container">
                 <h1 class="display-4">Welcome to MovieBooker</h1>
                 <p class="lead">Book your favorite movie tickets online with ease!</p>
+                <img src="images/logo.png" alt="Logo" width="200" height="200"><br>
                 <a href="movies.php" class="btn btn-primary btn-lg mt-3">Book Now</a>
             </div>
         </section>

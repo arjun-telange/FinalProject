@@ -26,63 +26,81 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <link href="bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background: linear-gradient(to right, #141e30, #243b55);
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Segoe UI', sans-serif;
-    }
-    .login-card {
-      width: 100%;
-      max-width: 400px;
-      background-color: #1c1c1c;
-      color: white;
-      padding: 2rem;
-      border-radius: 15px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
-    }
-    .form-control {
-      background-color: #2c2c2c;
-      border: 1px solid #444;
-      color: #fff;
-    }
-    .form-control:focus {
-      background-color: #2c2c2c;
-      color: #fff;
-      border-color: #007bff;
-      box-shadow: none;
-    }
-    .btn-primary {
-      width: 100%;
-    }
-    h3 {
-      text-align: center;
-      margin-bottom: 1.5rem;
-    }
+    background: linear-gradient(to right, #141e30, #243b55);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px; /* push below navbar */
+  }
+
+  .login-card {
+    width: 100%;
+    max-width: 400px;
+    background-color: #1c1c1c;
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  }
   </style>
 </head>
 
 <body>
-  <div class="login-card">
-    <h3>🔐 Admin Login</h3>
-    <form action="admin-login.php" method="POST">
-      <div class="mb-3">
-        <label for="username" class="form-label">Username</label>
-        <input type="text" name="username" id="username" class="form-control" required>
+  <!-- ✅ Navbar added -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="Logo" width="35" height="35" class="me-2">MovieBooker
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="movies.php">Now Showing</a>
+        </li>
+      </ul>
       </div>
-      <div class="mb-3">
-        <label for="password" class="form-label">Password</label>
-        <div class="input-group">
-          <input type="password" name="password" id="password" class="form-control" required>
-          <button class="btn btn-outline-secondary" type="button" id="togglePassword">
-              👁
-          </button>
-          </div>
-      </div>
-      <button type="submit" class="btn btn-primary">Login</button>
-    </form>
   </div>
+  </nav>
+
+  <main class="container py-5">
+    <div class="row justify-content-center">
+      <div class="login-card">
+        <h3>🔐 Admin Login</h3>
+        <form action="admin-login.php" method="POST">
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" name="username" id="username" class="form-control" required>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <div class="input-group">
+              <input type="password" name="password" id="password" class="form-control" required>
+              <button class="btn btn-outline-secondary" type="button" id="togglePassword">
+                  👁
+              </button>
+              </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+   </div>
+  </main>
   <script>
       const togglePassword = document.getElementById("togglePassword");
       const passwordField = document.getElementById("password");

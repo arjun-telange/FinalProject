@@ -51,20 +51,27 @@ $totalAmount  = $seats * $pricePerSeat;
 </head>
 <body>
     <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">MovieBooker</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="Logo" width="35" height="35" class="me-2">MovieBooker
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navMain">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="movies.php">Now Showing</a></li>
-            </ul>
-          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="movies.php">Now Showing</a>
+          </li>
+        </ul>
         </div>
-      </nav>
+    </div>
+    </nav>
+
     <div class="container py-5">
         <h1>Complete Your Payment</h1>
         <p>Scan the QR code to pay ₹<?php echo $totalAmount; ?></p>

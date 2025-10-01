@@ -20,20 +20,26 @@ $showtime = isset($_POST['showtime']) ? $_POST['showtime'] : '';
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">MovieBooker</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navMain">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="Logo" width="35" height="35" class="me-2">MovieBooker
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="movies.php">Now Showing</a></li>
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="movies.php">Now Showing</a>
+            </li>
         </ul>
-      </div>
+        </div>
     </div>
-  </nav>
+    </nav>
 
   <main class="container py-5">
     <h2 class="mb-4 text-center">Book Your Tickets</h2>

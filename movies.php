@@ -44,6 +44,162 @@
         <h2 class="text-center mb-4">Now Showing</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
 
+            <!--Tumbbad Card-->
+            <div class="col-md-3 md-4">
+            <div class="card h-100 bg-dark text-white">
+              <img 
+                src="images/tumbbad.jpg"
+                class="card-img-top"
+                alt="Tumbbad poster"
+                loading="lazy">
+              <!-- Tumbbad card body -->
+              <div class="card-body">
+                <h5 class="card-title">Tumbbad</h5>
+                <p class="mb-2">Showtimes:</p>
+                <div class="d-flex flex-wrap gap-2">
+                  <!-- Showtime 1 -->
+                  <form action="book.php" method="POST"> 
+                    <input type="hidden" name="movie" value="Tumbbad">
+                    <input type="hidden" name="showtime" value="5:00 PM">
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="17:00">5:00 PM</button>
+                  </form>
+                  <!-- Showtime 2 -->
+                  <form action="book.php" method="POST">
+                    <input type="hidden" name="movie" value="Tumbbad">
+                    <input type="hidden" name="showtime" value="9:00 PM">
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="21:00">9:00 PM</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <!--Hereditary Card-->
+            <div class="col-md-3 md-4">
+            <div class="card h-100 bg-dark text-white">
+              <img 
+                src="images/hereditary.jpg"
+                class="card-img-top"
+                alt="Hereditary poster"
+                loading="lazy">
+              <!-- Hereditary card body -->
+              <div class="card-body">
+                <h5 class="card-title">Hereditary</h5>
+                <p class="mb-2">Showtimes:</p>
+                <div class="d-flex flex-wrap gap-2">
+                  <!-- Showtime 1 -->
+                  <form action="book.php" method="POST"> 
+                    <input type="hidden" name="movie" value="Hereditary">
+                    <input type="hidden" name="showtime" value="10:00 AM">
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="10:00">10:00 AM</button>
+                  </form>
+                  <!-- Showtime 2 -->
+                  <form action="book.php" method="POST">
+                    <input type="hidden" name="movie" value="Hereditary">
+                    <input type="hidden" name="showtime" value="6:00 PM">
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="18:00">6:00 PM</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            </div>     
+
+            <!--It Chapter-1 Card-->
+            <div class="col-md-3 md-4">
+            <div class="card h-100 bg-dark text-white">
+              <img 
+                src="images/it.jpg"
+                class="card-img-top"
+                alt="It Chapter-1 poster"
+                loading="lazy">
+              <!-- It Chapter-1 card body -->
+              <div class="card-body">
+                <h5 class="card-title">It Chapter-1</h5>
+                <p class="mb-2">Showtimes:</p>
+                <div class="d-flex flex-wrap gap-2">
+                  <!-- Showtime 1 -->
+                  <form action="book.php" method="POST"> 
+                    <input type="hidden" name="movie" value="It Chapter-1">
+                    <input type="hidden" name="showtime" value="11:30 AM">
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="11:30">11:30 AM</button>
+                  </form>
+                  <!-- Showtime 2 -->
+                  <form action="book.php" method="POST">
+                    <input type="hidden" name="movie" value="It Chapter-1">
+                    <input type="hidden" name="showtime" value="9:30 PM">
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="21:30">9:30 PM</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            </div>
+
+             <!--The Conjuring Card-->
+            <div class="col-md-3 md-4">
+            <div class="card h-100 bg-dark text-white">
+              <img 
+                src="images/conjuring.jpg"
+                class="card-img-top"
+                alt="The Conjuring poster"
+                loading="lazy">
+              <!-- The Conjuring card body -->
+              <div class="card-body">
+                <h5 class="card-title">The Conjuring- Last Rites</h5>
+                <p class="mb-2">Showtimes:</p>
+                <div class="d-flex flex-wrap gap-2">
+                  <!-- Showtime 1 -->
+                  <form action="book.php" method="POST"> 
+                    <input type="hidden" name="movie" value="The Conjuring">
+                    <input type="hidden" name="showtime" value="1:00 PM">
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="13:00">1:00 PM</button>
+                  </form>
+                  <!-- Showtime 2 -->
+                  <form action="book.php" method="POST">
+                    <input type="hidden" name="movie" value="The Conjuring">
+                    <input type="hidden" name="showtime" value="5:00 PM">
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="17:00">5:00 PM</button>
+                  </form>
+                  <!-- Showtime 3 -->
+                  <form action="book.php" method="POST">
+                    <input type="hidden" name="movie" value="The Conjuring">
+                    <input type="hidden" name="showtime" value="9:00 PM">
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="21:00">9:00 PM</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <!--Evil Dead Rise Card-->
+            <div class="col-md-3 md-4">
+            <div class="card h-100 bg-dark text-white">
+              <img 
+                src="images/evildead.jpg"
+                class="card-img-top"
+                alt="Evil Dead Rise poster"
+                loading="lazy">
+              <!-- Evil Dead Rise card body -->
+              <div class="card-body">
+                <h5 class="card-title">Evil Dead Rise</h5>
+                <p class="mb-2">Showtimes:</p>
+                <div class="d-flex flex-wrap gap-2">
+                  <!-- Showtime 1 -->
+                  <form action="book.php" method="POST"> 
+                    <input type="hidden" name="movie" value="Evil Dead Rise">
+                    <input type="hidden" name="showtime" value="11:00 AM">
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="11:00">11:00 AM</button>
+                  </form>
+                  <!-- Showtime 2 -->
+                  <form action="book.php" method="POST">
+                    <input type="hidden" name="movie" value="Evil Dead Rise">
+                    <input type="hidden" name="showtime" value="4:00 PM">
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="16:00">4:00 PM</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            </div>
+
             <!--Shawshank Redemption Card-->
             <div class="col-md-3 md-4">
             <div class="card h-100 bg-dark text-white">
@@ -138,7 +294,9 @@
                 </div>
               </div>
             </div>
-            </div>            
+            </div> 
+            
+            
 
             <!--The Batman Card-->
             <div class="col-md-3 md-4">
@@ -164,132 +322,6 @@
                     <input type="hidden" name="movie" value="The Batman">
                     <input type="hidden" name="showtime" value="8:00 PM">
                     <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="20:00">8:00 PM</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            </div>
-
-            <!--Hereditary Card-->
-            <div class="col-md-3 md-4">
-            <div class="card h-100 bg-dark text-white">
-              <img 
-                src="images/hereditary.jpg"
-                class="card-img-top"
-                alt="Hereditary poster"
-                loading="lazy">
-              <!-- Hereditary card body -->
-              <div class="card-body">
-                <h5 class="card-title">Hereditary</h5>
-                <p class="mb-2">Showtimes:</p>
-                <div class="d-flex flex-wrap gap-2">
-                  <!-- Showtime 1 -->
-                  <form action="book.php" method="POST"> 
-                    <input type="hidden" name="movie" value="Hereditary">
-                    <input type="hidden" name="showtime" value="10:00 AM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="10:00">10:00 AM</button>
-                  </form>
-                  <!-- Showtime 2 -->
-                  <form action="book.php" method="POST">
-                    <input type="hidden" name="movie" value="Hereditary">
-                    <input type="hidden" name="showtime" value="6:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="18:00">6:00 PM</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            </div>
-            
-            <!--The Conjuring Card-->
-            <div class="col-md-3 md-4">
-            <div class="card h-100 bg-dark text-white">
-              <img 
-                src="images/conjuring.jpg"
-                class="card-img-top"
-                alt="The Conjuring poster"
-                loading="lazy">
-              <!-- The Conjuring card body -->
-              <div class="card-body">
-                <h5 class="card-title">The Conjuring- Last Rites</h5>
-                <p class="mb-2">Showtimes:</p>
-                <div class="d-flex flex-wrap gap-2">
-                  <!-- Showtime 1 -->
-                  <form action="book.php" method="POST"> 
-                    <input type="hidden" name="movie" value="The Conjuring">
-                    <input type="hidden" name="showtime" value="1:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="13:00">1:00 PM</button>
-                  </form>
-                  <!-- Showtime 2 -->
-                  <form action="book.php" method="POST">
-                    <input type="hidden" name="movie" value="The Conjuring">
-                    <input type="hidden" name="showtime" value="5:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="17:00">5:00 PM</button>
-                  </form>
-                  <!-- Showtime 3 -->
-                  <form action="book.php" method="POST">
-                    <input type="hidden" name="movie" value="The Conjuring">
-                    <input type="hidden" name="showtime" value="9:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="21:00">9:00 PM</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            </div>
-            
-            <!--Evil Dead Rise Card-->
-            <div class="col-md-3 md-4">
-            <div class="card h-100 bg-dark text-white">
-              <img 
-                src="images/evildead.jpg"
-                class="card-img-top"
-                alt="Evil Dead Rise poster"
-                loading="lazy">
-              <!-- Hereditary card body -->
-              <div class="card-body">
-                <h5 class="card-title">Evil Dead Rise</h5>
-                <p class="mb-2">Showtimes:</p>
-                <div class="d-flex flex-wrap gap-2">
-                  <!-- Showtime 1 -->
-                  <form action="book.php" method="POST"> 
-                    <input type="hidden" name="movie" value="Evil Dead Rise">
-                    <input type="hidden" name="showtime" value="11:00 AM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="11:00">11:00 AM</button>
-                  </form>
-                  <!-- Showtime 2 -->
-                  <form action="book.php" method="POST">
-                    <input type="hidden" name="movie" value="Evil Dead Rise">
-                    <input type="hidden" name="showtime" value="4:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="16:00">4:00 PM</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-            </div>
-
-            <!--It Chapter-1 Card-->
-            <div class="col-md-3 md-4">
-            <div class="card h-100 bg-dark text-white">
-              <img 
-                src="images/it.jpg"
-                class="card-img-top"
-                alt="It Chapter-1 poster"
-                loading="lazy">
-              <!-- It Chapter-1 card body -->
-              <div class="card-body">
-                <h5 class="card-title">It Chapter-1</h5>
-                <p class="mb-2">Showtimes:</p>
-                <div class="d-flex flex-wrap gap-2">
-                  <!-- Showtime 1 -->
-                  <form action="book.php" method="POST"> 
-                    <input type="hidden" name="movie" value="It Chapter-1">
-                    <input type="hidden" name="showtime" value="11:30 AM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="11:30">11:30 AM</button>
-                  </form>
-                  <!-- Showtime 2 -->
-                  <form action="book.php" method="POST">
-                    <input type="hidden" name="movie" value="It Chapter-1">
-                    <input type="hidden" name="showtime" value="9:30 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="21:30">9:30 PM</button>
                   </form>
                 </div>
               </div>

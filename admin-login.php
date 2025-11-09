@@ -101,6 +101,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </div>
    </div>
   </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <p class="mb-0">&copy; 2025 MovieBooker. All rights reserved.</p>
+  </footer>
+
   <script>
       const togglePassword = document.getElementById("togglePassword");
       const passwordField = document.getElementById("password");

@@ -61,13 +61,13 @@
                   <form action="book.php" method="POST"> 
                     <input type="hidden" name="movie" value="Tumbbad">
                     <input type="hidden" name="showtime" value="5:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="17:00">5:00 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="17:00">5:00 PM</button>
                   </form>
                   <!-- Showtime 2 -->
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="Tumbbad">
                     <input type="hidden" name="showtime" value="9:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="21:00">9:00 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="21:00">9:00 PM</button>
                   </form>
                 </div>
               </div>
@@ -91,18 +91,48 @@
                   <form action="book.php" method="POST"> 
                     <input type="hidden" name="movie" value="Hereditary">
                     <input type="hidden" name="showtime" value="10:00 AM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="10:00">10:00 AM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="10:00">10:00 AM</button>
                   </form>
                   <!-- Showtime 2 -->
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="Hereditary">
                     <input type="hidden" name="showtime" value="6:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="18:00">6:00 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="18:00">6:00 PM</button>
                   </form>
                 </div>
               </div>
             </div>
-            </div>     
+            </div> 
+            
+            <!--Bramayugam Card-->
+            <div class="col-md-3 md-4">
+            <div class="card h-100 bg-dark text-white">
+              <img 
+                src="images/bramayugam.jpg"
+                class="card-img-top"
+                alt="Bramayugam poster"
+                loading="lazy">
+              <!-- Evil Dead Rise card body -->
+              <div class="card-body">
+                <h5 class="card-title">Bramayugam</h5>
+                <p class="mb-2">Showtimes:</p>
+                <div class="d-flex flex-wrap gap-2">
+                  <!-- Showtime 1 -->
+                  <form action="book.php" method="POST"> 
+                    <input type="hidden" name="movie" value="Bramayugam">
+                    <input type="hidden" name="showtime" value="3:00 PM">
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="3:00">3:00 PM</button>
+                  </form>
+                  <!-- Showtime 2 -->
+                  <form action="book.php" method="POST">
+                    <input type="hidden" name="movie" value="Evil Dead Rise">
+                    <input type="hidden" name="showtime" value="8:00 PM">
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="20:00">8:00 PM</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            </div>
 
             <!--It Chapter-1 Card-->
             <div class="col-md-3 md-4">
@@ -121,13 +151,13 @@
                   <form action="book.php" method="POST"> 
                     <input type="hidden" name="movie" value="It Chapter-1">
                     <input type="hidden" name="showtime" value="11:30 AM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="11:30">11:30 AM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="11:30">11:30 AM</button>
                   </form>
                   <!-- Showtime 2 -->
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="It Chapter-1">
                     <input type="hidden" name="showtime" value="9:30 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="21:30">9:30 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="21:30">9:30 PM</button>
                   </form>
                 </div>
               </div>
@@ -151,19 +181,19 @@
                   <form action="book.php" method="POST"> 
                     <input type="hidden" name="movie" value="The Conjuring">
                     <input type="hidden" name="showtime" value="1:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="13:00">1:00 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="13:00">1:00 PM</button>
                   </form>
                   <!-- Showtime 2 -->
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="The Conjuring">
                     <input type="hidden" name="showtime" value="5:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="17:00">5:00 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="17:00">5:00 PM</button>
                   </form>
                   <!-- Showtime 3 -->
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="The Conjuring">
                     <input type="hidden" name="showtime" value="9:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="21:00">9:00 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="21:00">9:00 PM</button>
                   </form>
                 </div>
               </div>
@@ -187,13 +217,13 @@
                   <form action="book.php" method="POST"> 
                     <input type="hidden" name="movie" value="Evil Dead Rise">
                     <input type="hidden" name="showtime" value="11:00 AM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="11:00">11:00 AM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="11:00">11:00 AM</button>
                   </form>
                   <!-- Showtime 2 -->
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="Evil Dead Rise">
                     <input type="hidden" name="showtime" value="4:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="16:00">4:00 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="16:00">4:00 PM</button>
                   </form>
                 </div>
               </div>
@@ -217,13 +247,13 @@
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="The Shawshank Redemption">
                     <input type="hidden" name="showtime" value="1:30 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="13:30">1:30 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="13:30">1:30 PM</button>
                   </form>
                   <!-- Showtime 2 -->
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="The Shawshank Redemption">
                     <input type="hidden" name="showtime" value="8:30 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="20:30">8:30 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="20:30">8:30 PM</button>
                   </form>
                 </div>
               </div>
@@ -247,19 +277,19 @@
                   <form action="book.php" method="POST"> 
                     <input type="hidden" name="movie" value="Demon Slayer">
                     <input type="hidden" name="showtime" value="10:00 AM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="10:00">10:00 AM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="10:00">10:00 AM</button>
                   </form>
                   <!-- Showtime 2 -->
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="Demon Slayer">
                     <input type="hidden" name="showtime" value="5:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="17:00">5:00 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="17:00">5:00 PM</button>
                   </form>
                   <!-- Showtime 2 -->
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="Demon Slayer">
                     <input type="hidden" name="showtime" value="9:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="21:00">9:00 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="21:00">9:00 PM</button>
                   </form>
                 </div>
               </div>
@@ -283,13 +313,13 @@
                   <form action="book.php" method="POST"> 
                     <input type="hidden" name="movie" value="Mahavatar Narsimha">
                     <input type="hidden" name="showtime" value="3:30 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="15:30">3:30 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="15:30">3:30 PM</button>
                   </form>
                   <!-- Showtime 2 -->
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="Mahavatar Narsimha">
                     <input type="hidden" name="showtime" value="8:30 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="20:30">8:30 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="20:30">8:30 PM</button>
                   </form>
                 </div>
               </div>
@@ -315,13 +345,13 @@
                   <form action="book.php" method="POST"> 
                     <input type="hidden" name="movie" value="The Batman">
                     <input type="hidden" name="showtime" value="9:30 AM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="09:30">9:30 AM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="09:30">9:30 AM</button>
                   </form>
                   <!-- Showtime 2 -->
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="The Batman">
                     <input type="hidden" name="showtime" value="8:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="20:00">8:00 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="20:00">8:00 PM</button>
                   </form>
                 </div>
               </div>
@@ -345,13 +375,13 @@
                   <form action="book.php" method="POST"> 
                     <input type="hidden" name="movie" value="Inception">
                     <input type="hidden" name="showtime" value="12:30 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="12:30">12:30 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="12:30">12:30 PM</button>
                   </form>
                   <!-- Showtime 2 -->
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="Inception">
                     <input type="hidden" name="showtime" value="7:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="19:00">7:00 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="19:00">7:00 PM</button>
                   </form>
                 </div>
               </div>
@@ -375,13 +405,13 @@
                   <form action="book.php" method="POST"> 
                     <input type="hidden" name="movie" value="Interstellar">
                     <input type="hidden" name="showtime" value="2:00 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="14:00">2:00 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="14:00">2:00 PM</button>
                   </form>
                   <!-- Showtime 2 -->
                   <form action="book.php" method="POST">
                     <input type="hidden" name="movie" value="Interstellar">
                     <input type="hidden" name="showtime" value="10:30 PM">
-                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-11-10" data-time="22:30">10:30 PM</button>
+                    <button type="submit" class="btn btn-sm btn-primary" data-date="2025-12-14" data-time="22:30">10:30 PM</button>
                   </form>
                 </div>
               </div>
@@ -408,7 +438,7 @@
             const showDate = btn.getAttribute("data-date");
             const showTime = btn.getAttribute("data-time");
 
-            const showDateTime = new Date(showDate + "T" + showTime + ":00"); // e.g. 2025-11-10T13:30:00
+            const showDateTime = new Date(showDate + "T" + showTime + ":00"); // e.g. 2025-12-14T13:30:00
 
             if (showDateTime < now) {
                 btn.disabled = true;
